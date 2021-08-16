@@ -1,0 +1,13 @@
+package com.asan.KafkaPersonalTracking;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class KafkaPersonalTrackingApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(KafkaPersonalTrackingApplication.class, args);
+	}
+
+}
